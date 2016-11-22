@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: MyFirstNodeApp
+  host: MyFirstNodeApp-Imex
+  disk_quota: 1024M
+  services:
+  - Language Translation-h4
